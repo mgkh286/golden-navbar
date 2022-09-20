@@ -44,11 +44,12 @@ span {
 
 .nav ul li a {
   color: #000;
+  font-size: 1.2rem;
   text-transform: capitalize;
 }
 
 .nav ul li a:hover {
-  color: goldenrod;
+  color: #fff;
 }
 
 .btn {
@@ -57,4 +58,14 @@ span {
   color: #fff;
   border-radius: 25px;
   font-weight: 700;
+}
+
+p {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: gold;
+  font-size: 3rem;
 }
