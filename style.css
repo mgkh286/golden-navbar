@@ -81,8 +81,21 @@ p {
     flex-wrap: nowrap;
   }
 
+  .logo {
+    font-size: 1rem;
+  }
+
   .nav ul li {
-    /* display: flex; */
-    /* flex-direction: column; */
+    padding: 0.2rem;
+  }
+
+  .nav ul li a {
+    font-size: 0.8rem;
+  }
+
+  p {
+    height: 50vh;
+    font-size: 1rem;
+    text-align: center;
   }
 }
