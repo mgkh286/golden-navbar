@@ -69,3 +69,20 @@ p {
   color: gold;
   font-size: 3rem;
 }
+
+@media (max-width: 1000px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    /* padding: 2rem; */
+    height: auto;
+    gap: 30px;
+    flex-wrap: nowrap;
+  }
+
+  .nav ul li {
+    /* display: flex; */
+    /* flex-direction: column; */
+  }
+}
