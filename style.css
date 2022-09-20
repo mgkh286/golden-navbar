@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: goldenrod;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 12vh;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.322);
+}
+
+.logo {
+  color: #000;
+  font-size: 2rem;
+}
+
+span {
+  color: goldenrod;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 0 1.5rem;
+}
+
+.nav ul li a {
+  color: #000;
+  text-transform: capitalize;
+}
+
+.nav ul li a:hover {
+  color: goldenrod;
+}
+
+.btn {
+  background-color: goldenrod;
+  padding: 0.8rem 2rem;
+  color: #fff;
+  border-radius: 25px;
+  font-weight: 700;
+}
